@@ -5,22 +5,3 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-namespace :frontend do
-
-    task :build do
-        sh "yarn build"
-    end
-
-    task :dev do
-        sh "yarn dev"
-    end
-
-    task :test do
-        sh "yarn test"
-    end
-
-    task :clean do
-        sh "rm -f dist/bundle.js dist/styles.css"
-    end
-end
-

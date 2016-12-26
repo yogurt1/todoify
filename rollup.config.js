@@ -52,7 +52,7 @@ if (isProduction) {
 
 export default {
     entry: "./app/entry.js",
-    dest: "./public/bundle.js",
+    dest: "./public/assets/bundle.js",
     format: "iife",
     sourceMap: false,
     useStrict: false,
