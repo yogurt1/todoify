@@ -1,0 +1,5 @@
+[*.{ru,rb,yml,json,erb}]
+indent_size = 2
+
+[Gemfile]
+indent_size = 2
